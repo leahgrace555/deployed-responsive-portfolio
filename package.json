@@ -1,0 +1,24 @@
+{
+  "name": "deployed-responsive-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leahgrace555/deployed-responsive-portfolio.git"
+  },
+  "author": "Leah Grace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leahgrace555/deployed-responsive-portfolio/issues"
+  },
+  "homepage": "https://github.com/leahgrace555/deployed-responsive-portfolio#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
