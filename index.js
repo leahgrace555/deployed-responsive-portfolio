@@ -1,16 +1,20 @@
 'use strict';
 
-const express = require('express');
-const app = express(); //bringing in express library
-require('dotenv').config();
+// const express = require('express');
+// const app = express(); //bringing in express library
+// require('dotenv').config();
 
-app.use(express.static('./Public'));
+// //app.get(express.static('./Public'));
 
-const PORT = process.env.PORT;
+// app.listen(3000)
 
-app.listen(PORT,() => {
-  console.log(`listening on ${PORT}`);
+const express = require('express')
+const app = express()
+
+app.get('/', function (req, res) {res.send('Hello World!')
 })
+
+app.listen(3000)
 
 
 
